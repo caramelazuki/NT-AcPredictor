@@ -6,7 +6,7 @@ NT-AcPredictor: predicting N-terminal acetylated sequences by decision tree
 
 This program predicts whether N-terminal acetylation occurs for proteins whose initiator methionine residues are removed by methionine amino peptidase.
 
-The program was produced and would be maintained by Kazunori D Yamada (kyamada@ecei.tohoku.ac.jp) and Masaru Miyagi (mxm356@case.edu).
+The program was produced and would be maintained by Kazunori D Yamada (yamada@tohoku.ac.jp) and Masaru Miyagi (mxm356@case.edu).
 
 
 ## Usage
