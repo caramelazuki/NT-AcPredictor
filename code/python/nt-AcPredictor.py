@@ -101,7 +101,7 @@ def seqcheck(liname,liseq,first):
 	likmername,likmerseq,licutcheck,libadlen,libadchar=[],[],[],[],[]
 	if len(liname)!=len(liseq):
 		print("Input file is not of standard FASTA format.")
-		sys.exit()
+		sys.exit(1)
 	else:
 		for i in range(len(liseq)):
 			truncatedseq=liseq[i]
@@ -131,7 +131,7 @@ def seqcheck(liname,liseq,first):
 		if badchar==1:
 			print("The following sequence(s) contains non-standard character(s).")
 			print("\n".join(libadchar))
-		sys.exit()
+		sys.exit(1)
 	else:
 		return [likmername,likmerseq,licutcheck]
 
